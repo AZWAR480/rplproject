@@ -1,0 +1,14 @@
+body {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    margin-top: 10px;
+    background-position: center;
+    background-image: linear-gradient(rgba(16, 21, 159, 0.8),rgba(16, 21, 159, 0.8)), url(/image/listrik.png);
+    background-size:cover;
+  }
+  .container {
+    max-width: 100%; /* Adjust this value as needed */
+  }

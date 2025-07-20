@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(81, 66, 245, 0.8),rgba(81, 66, 245, 0.8)), url(/image/listrik.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box{
+    background: #009ddb;
+    text-align: center;
+    padding: 40px 90px;
+    color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.profile-box h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.menu-icon{
+   width: 25px;
+   position: absolute;
+   left: 40px;
+   top: 40px;
+}
+.setting-icon{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+ }
+ .profile-icon{
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+ }
+
+ .logout-button {
+    background-color: #f44336; /* Warna merah */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
